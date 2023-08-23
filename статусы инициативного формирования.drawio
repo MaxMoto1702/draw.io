@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-23T06:08:19.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.2.765 Yowser/2.5 Safari/537.36" etag="ClGs9f32WDNbj24WpMtR" version="21.6.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-23T06:29:19.063Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.2.765 Yowser/2.5 Safari/537.36" etag="IBit-B4moH9LeGETiVMw" version="21.6.9" type="github" pages="2">
   <diagram name="Процесс" id="42789a77-a242-8287-6e28-9cd8cfd52e62">
     <mxGraphModel dx="1272" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -25,11 +25,11 @@
             <mxPoint x="708.3811289886298" y="230.75283185861008" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1ea317790d2ca983-16" value="сформированы все уведомления" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6zdZu1xOQH_9_6lhA5Ge-17" target="1ea317790d2ca983-5" edge="1">
+        <mxCell id="1ea317790d2ca983-16" value="сформированы все уведомления" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="6zdZu1xOQH_9_6lhA5Ge-17" target="1ea317790d2ca983-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1ea317790d2ca983-5" value="&lt;span&gt;Завершено&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="960" y="495" width="75" height="50" as="geometry" />
+        <mxCell id="1ea317790d2ca983-5" value="&lt;span&gt;сформировано&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="513" y="590" width="75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1ea317790d2ca983-23" value="relation" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" source="1ea317790d2ca983-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -115,6 +115,23 @@
         </mxCell>
         <mxCell id="6zdZu1xOQH_9_6lhA5Ge-19" value="&lt;span&gt;Ошибка формирования&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="70" y="500" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yNDwM7NJP9TJwuQhPqBt-1" value="получены все ответ от ГЕПС &lt;br&gt;независомо от реузльтата ГЕПС" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="587" y="695" as="sourcePoint" />
+            <mxPoint x="1029" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNDwM7NJP9TJwuQhPqBt-2" value="&lt;span&gt;доставлено&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="670" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yNDwM7NJP9TJwuQhPqBt-3" value="получены не все ответы от ГЕПС" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12;" edge="1" parent="1" target="yNDwM7NJP9TJwuQhPqBt-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="551" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNDwM7NJP9TJwuQhPqBt-4" value="&lt;span&gt;частично доставлено&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="513" y="670" width="75" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
